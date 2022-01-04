@@ -51,7 +51,7 @@ public class Main {
                     throw new InputMismatchException();
             }
         }catch(InputMismatchException error){
-            System.out.println("String no valido");
+            System.out.println("Animal ingresado no valido.");
         }
     }
 }
